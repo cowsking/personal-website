@@ -1,0 +1,155 @@
+<!--CSE110:Aassignment 1-->
+<!--Hongyi Wu-->
+<!--1613260-->
+<!--File:index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Hongyi Wu, Year 2, CSSE, XJTLU">
+  <meta name="author" content="Hongyi Wu">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="main.css" type="text/css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+</head>
+
+<body>
+  <!--a top bar menu always fix on top-->
+  <div class="topbar">
+    <ul class="toplist">
+      <!--list used in this-->
+      <li class="left"><a href="index.html"><strong>Home Page</strong></a></li>
+      <li class="left"><a href="index.html#information">Personal Information</a></li>
+      <li class="right"><a href="http://www.xjtlu.edu.cn/en/">XJTLU</a></li>
+      <li class="right"><a href="index.html#outlook">Outlook</a></li>
+      <li class="right"><a href="index.html#interest">My Interests</a></li>
+      <li class="right"><a href="index.html#childhood">My Childhood</a></li>
+    </ul>
+  </div>
+  <!--My name and photo centred in page-->
+  <div id="me">
+    <div id='leftface'>
+      <img src="myface.png" width="100" alt="me">
+    </div>
+    <div id='rightname'>
+      <h1>Hongyi Wu</h1>
+    </div>
+  </div>
+  <!--Personal information displays by list-->
+  <div id="information">
+    <h2>Personal information</h2>
+    <br>
+    <div id="lists">
+      <ul>
+        <li>Hongyi Wu, a student in XJTLU, Suzhou.</li>
+        <li>From Hefei, Anhui, China. </li>
+        <li>Major in <a href="http://www.xjtlu.edu.cn/en/departments/academic-departments/computer-science-and-software-engineering/">Information and Computing Science</a>.</li>
+        <li>Student ID, 1613260.</li>
+      </ul>
+    </div>
+    <br>
+    <p>You can never really learn about me through these information.</p>
+    <p>Also, I come to understand myself by the assignment,
+      <p>thus figuring out what is my favourite, and what a person I actually want to be.</p>
+  </div>
+
+  <hr>
+  <!--another part, my childhood-->
+  <div id="childhood">
+    <h2>My childhood</h2>
+    <img src="childhood.png" width="400" alt="childhood">
+    <h3>Cultivated my character in childhood</h3>
+    <br>
+    <p>I often stayed alone,building with blocks, or watching how insects move.</p>
+    <p>I also found painting appealing, learning about watercolor and wash painting correspondingly.</p>
+    <p>What I had learned brings me the source of innovation, for which I am impassioned.</p>
+    <p>I supposed that I would be a scientist.</p>
+  </div>
+  <!--show my interest by table-->
+  <div id="interest">
+    <h2>My interests</h2>
+    <div id="join">
+      <div id="leftphoto"><img src="http://www.arenapersonnel.com/wp-content/uploads/2016/09/17631320-doodle-hobby-images-Stock-Vector.jpg" alt="hobbies"></div>
+      <div id="rightcontent">
+        <p>As I grew up, I come to appreciate audio and visual arts.</p>
+        <p>The following table shows several productions and their rank.</p>
+        <br>
+      </div>
+    </div>
+    <table class="rank">
+      <thead>
+
+        <tr>
+          <th>Category</th>
+          <th>#1</th>
+          <th>#2</th>
+          <th>#3</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Games</td>
+        <td>MOBA</td>
+        <td>MMORPG</td>
+        <td>ARPG</td>
+      </tr>
+      <tr>
+        <td>Music</td>
+        <td>Ballad</td>
+        <td>Musicals</td>
+        <td>Rock and Roll</td>
+      </tr>
+      <tr>
+        <td>Films</td>
+        <td>Sci-Fi</td>
+        <td>Suspense</td>
+        <td>Documentary</td>
+      </tr>
+    </table>
+
+    <br>
+    <p id="production">Here is my preferred productions!</p>
+    <hr>
+    <br>
+    <br>
+    <!--three picture of my preferred productions-->
+    <div>
+      <div class="card">
+        <img src="ballad.jpeg" style="width:100%" alt="zhifei">
+        <div class="container">
+          <p>Ballad: Zhi Fei</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="mozart.jpg" style="width:100%" alt="mozart">
+        <div class="container">
+          <p>Musical: Mozart!</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="zed.jpg" style="width:100%" alt="zed">
+        <div class="container">
+          <p>Game:League of Legends</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--last part of my future-->
+  <div id="outlook">
+    <h2>Outlook</h2>
+    <p>I come to feel like learning computer as my major.</p>
+    <p>In my opinion, being faced with computer symbolizes how a person deals with objects.</p>
+    <p>In addition, it is also important to deal with interpersonal relationships and communication with people.</p>
+    <p>I will leave for <a href="https://www.liverpool.ac.uk">UOL</a> next semester. It will be my new journey of life.</p>
+    <p>As for my future work, maybe related to computer <i>regarding data analysis</i> or <i>machine learning</i>, maybe not. </p>
+    <p id="know">Who knows?</p>
+    <br>
+  </div>
+    <!--an end bar to show my work-->
+    <div class="endbar">
+      <p><br>Made by <strong>Hongyi Wu</strong><br>10th April 2018.</p>
+      <br>
+    </div>
+</body>
+
+</html>
